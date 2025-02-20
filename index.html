@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#home">My Website</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="home" class="container text-center my-5">
+        <h1>Welcome to My Website</h1>
+        <img src="images/profile.jpg" alt="Profile Image" class="rounded-circle" width="150">
+        <p>Introduction: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p>Address: 1340 Administration Ave, Fargo, ND 58105</p>
+    </section>
+    
+    <section id="about" class="container my-5">
+        <h2>About Me:</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur voluptates fuga amet incidunt beatae, reprehenderit repudiandae eveniet temporibus quis alias iste saepe. Eligendi delectus unde, vero aut odit quam nulla, doloremque earum similique facere laudantium, aliquam id magni dolor fugiat quis rerum libero! Iusto commodi cupiditate nesciunt autem consequuntur, adipisci at repudiandae? Temporibus soluta porro ea alias, maiores ratione nostrum!</p>
+        <h3>Favorite Websites: </h3>
+        <ul>
+            <li><a href="https://www.google.com" target="_blank">Google</a></li>
+            <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+        </ul>
+        <h3>My Favorite Movies:</h3>
+        <ul>
+            <li>Percy Jackson</li>
+            <li>Interstellar</li>
+            <li>Harry Potter</li>
+        </ul>
+        <h3>Hobbies</h3>
+        <ol>
+            <li>Coding</li>
+            <li>Video Games</li>
+            <li>Basketball</li>
+        </ol>                        
+    </section>
+
+    <section id="schedule" class="container my-5">
+        <h2>My Weekly Schedule</h2>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr class="table-primary">
+                    <th>Day</th>
+                    <th>Activity</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>Class</td>
+                    <td>9 AM - 2 PM</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Class</td>
+                    <td>12 PM - 5 PM</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Class</td>
+                    <td>9 AM - 2 PM</td>
+                </tr>
+                <tr>
+                    <td>Thrusday</td>
+                    <td>Class</td>
+                    <td>12 PM - 5 PM</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Class</td>
+                    <td>9 AM - 2 PM</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>Study</td>
+                    <td>1 AM - 6 PM</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>Study</td>
+                    <td>1 AM - 6 PM</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>    
+    
+    <section id="portfolio" class="container my-5">
+        <h2>Portfolio</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/project1.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia laboriosam nemo porro et dolor accusantium laborum incidunt sit corrupti corporis?.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="container my-5">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
